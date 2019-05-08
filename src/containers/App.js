@@ -43,7 +43,7 @@ class App extends Component {
 
   render() {
     const { userName } = this.state;
-    //^ this is called destructuring. Cleaner code so you dont have to repeat this.props for everything.
+    //^ this is called destructuring. Cleaner code so you dont have to repeat this.props/this.state for everything.
 
     return (
       <div className="container">
